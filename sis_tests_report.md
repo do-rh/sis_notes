@@ -1,4 +1,4 @@
-Report Objectives
+### Report Objectives
 * Overview of testing strategy
 * Current test coverage / status
 * Go over Django specific testing
@@ -87,3 +87,5 @@ book1 = Book.objects.create(
 **Factories**
 * Django's mocking system
 
+### Sources
+1) fakes & factories https://www.hacksoft.io/blog/improve-your-tests-django-fakes-and-factories
