@@ -174,18 +174,18 @@ class APICourseTestCase(TestCase):
 
 | ID | Folder      | admin | api | models| views | other                                        |
 |----|-------------|-------|-----|-------|-------|----------------------------------------------|
-| 1  | api         |       |     |       |  x    |                                              | 
-| 2  | assessments | x     | x   | x     |  x    |download_zip, email                           | 
 | 3  | assets      | x     | x   | x     |  x    |                                              |
-| 4  | calendars   |       |     |       |  x    |                                              |
-| 6  | core        | x     |     |       |       |dbutils, fake_dev_db, templatetags            |
-| 7  | courses     | x     | x   | x     |  x    |clone, cohortitems, manage, publishweegroup   |
 | 8  | events      | x     | x   | x     |  x    |                                              |
 | 9  | exercises   | x     | x   | x     |  x    |                                              |
 | 10 | lectures    | x     | x   | x     |  x    |                                              |
 | 11 | projects    | x     | x   | x     |  x    |                                              |
-| 12 | sis         |       |     |       |  x    |middleware, response_debug, s3, settings, wsgi|
 | 14 | staff       | x     | x   | x     |  x    |                                              |
+| 2  | assessments | x     | x   | x     |  x    |download_zip, email                           | 
+| 7  | courses     | x     | x   | x     |  x    |clone, cohortitems, manage, publishweegroup   |
 | 15 | students    | x     | x   | x     |  x    |import_from_csv                               |
 | 16 | users       | x     |     | x     |  x    |auth, mail,                                   |
-2) faker documentation: https://faker.readthedocs.io/en/master/providers.html
+| 6  | core        | x     |     |       |       |dbutils, fake_dev_db, templatetags            |
+| 1  | api         |       |     |       |  x    |                                              | 
+| 4  | calendars   |       |     |       |  x    |                                              |
+| 12 | sis         |       |     |       |  x    |middleware, response_debug, s3, settings, wsgi|
+1) faker documentation: https://faker.readthedocs.io/en/master/providers.html
