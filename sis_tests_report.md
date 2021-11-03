@@ -65,6 +65,17 @@
 * Enables for unique instances of models that don't duplicate
 * Ex. Instead of testing only with 1 user and coming up with 1 name, can test 10000s of users.
 
+* Factory Boy:
+    As a fixtures replacement tool, it aims to replace static, hard to maintain 
+    fixtures with easy-to-use factories for complex objects.
+
+    Instead of building an exhaustive test setup with every possible combination 
+    of corner cases, factory_boy allows you to use objects customized for the 
+    current test, while only declaring the test-specific fields:
+
+* Lazy Attribute: 
+    Most factory attributes can be added using static values that are evaluated when the factory is defined, but some attributes (such as fields whose value is computed from other elements) will need values assigned each time an instance is generated. Use lazy to facilitate this.
+
 ```python
 book1 = Book.objects.create(
     library=self.library,
