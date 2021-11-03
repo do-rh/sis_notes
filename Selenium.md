@@ -1,3 +1,4 @@
+https://www.ordinarycoders.com/blog/article/testing-django-selenium
 ## What is Selenium:
 Selenium is a framework for testing web applications and automating web 
 browsers. Selenium actually automates user interaction on a given website as 
