@@ -1,12 +1,33 @@
 ### Report Objectives
 * Overview of testing strategy
-* Current test coverage / status
+  * slide - doris
+    * commands from docs
+      * coverage/init purpose
+  * slide - colin
+    * 99% test coverage
+    * test structure/organization (file tree snapshot)
+    * table of test types
 * Go over Django specific testing
-    * factories
+    * What are factories? 
+    * How to use them?
+    * Talk about testing patterns if there are any?
+      * All
+        * setup
+        * teardown
+      * Views 
+        * basic and permissions logic
+        * action - sending grades, email solution, filtering
+      * Auth -TBD
+      * Admin-TBD
+      * Models-TBD
     * faker data
+* Future Testing???
     * selenium
-    * coverage
-* Teach team how to run tests
+      * how it works in general
+      * how it could be implemented
+
+* Questions:
+  * The models seems to test more than the db functionality???
 
 **Core Tests**
 * admin
